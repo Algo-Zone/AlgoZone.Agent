@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoZone.Agent", "AlgoZone.Agent\AlgoZone.Agent.csproj", "{D1DFF3AC-EED6-4159-A955-102234A46F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoZone.Agent.Businesslayer", "AlgoZone.Agent.Businesslayer\AlgoZone.Agent.Businesslayer.csproj", "{4D85B4E2-136E-4E7E-9090-C18F6835F426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoZone.Agent.Datalayer.RabbitMQ", "AlgoZone.Agent.Datalayer.RabbitMQ\AlgoZone.Agent.Datalayer.RabbitMQ.csproj", "{EF3C059D-A5A1-447C-B792-4D6DD524708C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{D1DFF3AC-EED6-4159-A955-102234A46F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DFF3AC-EED6-4159-A955-102234A46F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DFF3AC-EED6-4159-A955-102234A46F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D85B4E2-136E-4E7E-9090-C18F6835F426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D85B4E2-136E-4E7E-9090-C18F6835F426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D85B4E2-136E-4E7E-9090-C18F6835F426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D85B4E2-136E-4E7E-9090-C18F6835F426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3C059D-A5A1-447C-B792-4D6DD524708C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3C059D-A5A1-447C-B792-4D6DD524708C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3C059D-A5A1-447C-B792-4D6DD524708C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3C059D-A5A1-447C-B792-4D6DD524708C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
